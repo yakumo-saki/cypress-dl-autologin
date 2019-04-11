@@ -1,12 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('My First Test', function() {
-	it('Does not do much!', function() {
-	  expect(true).to.equal(true)
-	})
-})
-
-describe('Real test', function() {
+describe('login and get bonus', function() {
 	it('Visits the login page', function() {
     cy.visit(Cypress.env('url'))
     // cy.visit("/login")
