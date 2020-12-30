@@ -4,7 +4,7 @@
   "description": "dartslive auto login and get bonus",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^3.2.0"
+    "cypress": "^6.2.0"
   },
   "devDependencies": {},
   "scripts": {
