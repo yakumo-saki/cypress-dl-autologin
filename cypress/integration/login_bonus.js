@@ -15,7 +15,7 @@ describe('login and get bonus', function() {
 		.type(Cypress.env('password'))
 		.should('have.value', Cypress.env('password'))
 
-		cy.get('#termsSubmitBtn input[type="submit"]').click()
+		cy.get('#login input[type="submit"]').click()
 		
 		cy.get('div.bonus div.bonusGet')
 			.click()
