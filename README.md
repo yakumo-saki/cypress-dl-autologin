@@ -1,7 +1,8 @@
 ## running environment
 
-* macOS 10.14 (mojave)
+* Linux (Debian 10)
 * Windows 10
+* macOS 10.14
 
 ## how to run
 
