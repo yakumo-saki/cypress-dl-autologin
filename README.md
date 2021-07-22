@@ -34,7 +34,17 @@ call node_modules\.bin\cypress run --reporter markdown
 exit %ERRORLEVEL%
 ```
 
-#### note
+### linux automation
 
-cypress not have CI friendry output option.
-https://github.com/cypress-io/cypress/issues/3079
+```
+#!/bin/bash -eu
+
+cd /work/scripts/cypress-dl-autologin
+
+# don't want colors on cypress output
+# https://github.com/cypress-io/cypress/issues/3079
+export NO_COLOR=1
+
+./node_modules/.bin/cypress install
+./node_modules/.bin/cypress run --reporter markdown
+```
